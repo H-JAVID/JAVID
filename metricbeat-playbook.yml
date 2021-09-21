@@ -1,4 +1,4 @@
-------
+---
 - name: Install metric beat
   hosts: webservers
   become: true
@@ -24,4 +24,13 @@
     # Use command module
   - name: setup metric beat
     command: metricbeat setup
-    command: metricbeat setup
+
+    # Use command module
+  - name: start metric beat
+    command: service metricbeat start
+
+    # Use systemd module
+  - name: enable service metricbeat on boot
+    systemd:
+      name: metricbeat
+      enabled: yes
