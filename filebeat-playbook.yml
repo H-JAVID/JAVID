@@ -24,3 +24,13 @@
     # Use command module
   - name: Setup filebeat
     command: filebeat setup
+
+    # Use command module
+  - name: Start filebeat service
+    command: service filebeat start
+
+    # Use systemd module
+  - name: Enable service filebeat on boot
+    systemd:
+      name: filebeat
+      enabled: yes
