@@ -1,7 +1,7 @@
 - 👋 Hi, I’m JAVID
 - 👀 I’m interested in Soccer and Hicking...
 - 🌱 I’m currently learning Cybersecurity
-- 💞️ I’m looking to collaborate on new ideas and startups.
+- 💞️ I’m looking to collaborate on new and innovativ ideas and startups.
 - 📫 How to reach me : Email: Hjavid123@gmail.com
 
 <!---
